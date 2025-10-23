@@ -16,7 +16,7 @@ else
     fi
 fi
 
-install_hia() {
+install_nixore() {
     wget -q -O "$TARGET_DIR/nixore" https://raw.githubusercontent.com/nixore-run/manager-script/main/install.sh
     chmod +x "$TARGET_DIR/nixore"
     echo -e "${GREEN}安装完成！以后输入 nixore 即可启动菜单。${RESET}"
